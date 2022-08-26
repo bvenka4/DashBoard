@@ -1,0 +1,8 @@
+{
+    "appService.defaultWebAppToDeploy": "None",
+    "azureFunctions.deploySubpath": "dashboard",
+    "azureFunctions.projectLanguage": "Custom",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.templateFilter": "Core"
+}
