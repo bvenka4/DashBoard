@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+body {
+	background: #010615;
+}
+
+#particles-js {
+	width: 100%;
+	height: 100vh;
+}
+
+.wrapper {
+	width: 100%;
+	top: 0.5%;
+	position: absolute;
+}
+
+.wrapper nav {
+	width: 100%;
+	height: 60px;
+}
+	
+.wrapper label.logo {
+	font-size: 34px;
+	color: white;
+	line-height: 60px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+
+.wrapper nav ul {
+	float: right;
+	margin-right: 40px;
+}
+
+.wrapper nav ul li {
+	display: inline-block;
+	margin: 0 5px;
+	line-height: 60px;
+	
+}
+
+.wrapper nav ul li a {
+	color: white;
+	font-family: Dosis;
+	font-weight: 600;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 7px 14px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+a.active,a:hover {
+	background: #1A5276;
+	transition: 0.2s;
+}
+
+.container {
+	float: left;
+	position: relative;
+	width: 400px;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #060c21;
+	margin: 50px 175px;
+}
+
+.container:before {
+	content: '';
+	position: absolute;
+	top: -2.5px;
+	bottom: -2.5px;
+	left: -2.5px;
+	right: -2.5px;
+	background: white;
+	background: linear-gradient(235deg, #89ff00, #060c21 ,#00bcd4);
+	z-index: -1;
+}
+
+.container:after {
+	content: '';
+	position: absolute;
+	top: -2.5px;
+	bottom: -2.5px;
+	left: -2.5px;
+	right: -2.5px;
+	background: white;
+	background: linear-gradient(235deg, #89ff00, #060c21 ,#00bcd4);
+	z-index: -1;
+	filter: blur(30px)
+}
+
+.content{
+	font-size: 20px;
+	font-family: Dosis;
+	letter-spacing: 3px;
+	line-height: 30px;
+	padding: 30px;
+	text-transform: uppercase;
+}
+
+#sub_btn {
+	letter-spacing: 3px;
+	padding: 10px 100px;
+	text-transform: uppercase;
+	font-size: 25px;
+	position: relative;
+	display: flex;
+	color: #2196f3;
+	background: #010615;
+	border: none;
+	margin: 15px;
+	overflow: hidden;
+	transition: 0.25s;
+	border-radius: 10px; 
+}
+
+#sub_btn:hover {
+	color: #255784;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3; 
+}
+
+.container .content h2 {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.container .content form input {
+	color: black;
+}

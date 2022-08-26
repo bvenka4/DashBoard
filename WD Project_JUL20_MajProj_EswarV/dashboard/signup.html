@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sign Up</title>
+		<link rel="stylesheet" type="text/css" href="signupDesign.css" >
+		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet'>
+	</head>
+	
+	<body>
+		
+		<div id="particles-js">	
+			<div class="wrapper">
+				<nav>
+					<label class="logo">E-Volve</label>
+						<ul>
+							<li><a href="eLearn.html">Home</a></li>
+							<li><a href="enroll.html">Enrollments</a></li>
+							<li><a href="#" class="active">Sign Up</a></li>
+							<li><a href="dashboard.html">Dashboard Sample</a></li>
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="mailto:info@noreplyadmin.com">Contact</a></li>
+							
+						</ul>
+				</nav>
+			
+				<div class="container">
+					<div class="content">	
+						<h2>REGISTER HERE</h2>
+						<form name="login">
+							<label for="uname">User Name</label>
+							<input type="text" id="uname" name="uname" pattern="[A-Za-z]{3,20}" required><br>
+							<label for="ph_no">Phone Number</label>
+							<input type="text" id="ph_no" name="ph_no" pattern="[789][0-9]{9}" required><br>
+							<label for="mail">Email ID</label>
+							<input type="email" id="mail" name="mail" required><br>
+							<label for="pwd">Set Password</label>
+							<input type="text" id="pwd" name="pwd" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" required><br>
+							<input type="submit" id="sub_btn" value="Submit"><br>
+						</form>
+					</div>
+				</div>
+				
+				<div class="container">
+					<div class="content">
+					<h2>LOGIN IN</h2>
+						<form>
+							<label for="username">User Name</label>
+							<input type="text" id="username" name="username" pattern="[A-Za-z]{3,20}" required><br>
+							<label for="cpwd">Password</label>
+							<input type="text" id="cpwd" name="cpwd" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 3}$" required><br>
+							<input type="submit" id="sub_btn" value="Submit"><br>
+						</form>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+		<script type="text/javascript" src="particles.js"></script>
+		<script type="text/javascript" src="app.js"></script>
+		
+	</body>
+</html>

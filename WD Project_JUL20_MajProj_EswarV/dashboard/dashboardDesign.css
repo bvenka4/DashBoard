@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: fixed;
+	background: #34495E;
+	padding: 20px;
+	height: 30px;
+	width: 100%;
+}
+
+.logo h3 {
+	font-size: 25px;
+	margin: 0;
+	font-weight: bolder;
+	color: white;
+}
+
+.log_btn {
+	float: right;
+	padding: 5px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+	margin-top: -30px;
+	background: #41C6C3;
+	border-radius: 5px;
+}
+
+.log_btn:hover {
+	background: #289E9B;
+	transition: 0.1s;
+}
+
+.slidebar {
+	width: 250px;
+	position: fixed;
+	height: 100%;
+	background: #212F3D;
+	margin-top: 70px;
+	padding-top: 30px;
+	left: 0;
+}
+
+.slidebar .profile_pic {
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+
+.slidebar h3 {
+	margin-top: 0;
+	margin-bottom: 15px;
+	color: white;
+}
+
+.slidebar a {
+	display: block;
+	width: 100%;
+	color: white;
+	line-height: 70px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	box-sizing: border-box;
+	padding-left: 30px;
+}
+
+.slidebar a:hover {
+	background: #41C6C3;
+	transition: 0.2s;
+}	
+
+.container {
+	margin-left: 250px;
+	background: #ddd6f3;
+	background: linear-gradient(to right, #faaca8, #ddd6f3);
+	height: 100%;
+}
+
+.frames #f1 {
+	padding-top: 90px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.frames #f2 {
+	float: right;
+	padding-top: 90px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.frames section p {
+	font-size: 20px;
+	font-family: Dosis;
+	font-weight: bolder;
+	padding: 10px;
+}
+
+.frames section h3 {
+	margin-top: 5px;
+	font-size: 26px;
+	font-family: Dosis;
+	font-weight: bolder;
+	padding: 5px;
+}
+
+.frames section ul li {
+	font-family: Dosis;
+	line-height: 17px;
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 10px 20px;
+}
+
+.frames section i {
+	padding-left: 10px;
+	color: black;
+	font-size: 20px;
+}
